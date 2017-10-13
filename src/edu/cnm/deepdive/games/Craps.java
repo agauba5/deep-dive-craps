@@ -84,7 +84,7 @@ public class Craps {
 
     LOSE;
 
-    public State newState(int roll) throws IllegalAccessException {
+    public State newState(int roll) throws IllegalArgumentException {
       return this;
     }
 
